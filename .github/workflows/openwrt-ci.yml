@@ -38,10 +38,10 @@ jobs:
 
       - name: 自定义插件主题
         run: |
-        cd package
-        mkdir openwrt-packages
-        cd openwrt-packages
-        git clone https://github.com/ysc3839/luci-proto-minieap.git
+          cd package
+          mkdir openwrt-packages
+          cd openwrt-packages
+          git clone https://github.com/ysc3839/luci-proto-minieap.git
 
       - name: Update feeds
         run: |
